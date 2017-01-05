@@ -1,0 +1,40 @@
+{
+  "name": "dektrium/yii2-app-skeleton",
+  "description": "Yii2 application template",
+  "type": "project",
+  "keywords": ["dektrium", "yii2", "yii2-application-template", "application template"],
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Dmitry Erofeev",
+      "email": "dmeroff@gmail.com",
+      "homepage": "https://dmeroff.me",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "^2.0.10",
+    "yiisoft/yii2-bootstrap": "^2.0",
+    "yiisoft/yii2-swiftmailer": "^2.0",
+    "vlucas/phpdotenv": "^2.4",
+    "dektrium/yii2-user": "^0.9.9"
+  },
+  "require-dev": {
+    "yiisoft/yii2-debug": "^2.0",
+    "yiisoft/yii2-gii": "^2.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "scripts": {
+    "post-install-cmd": [
+      "php yii init"
+    ]
+  }
+}
