@@ -8,7 +8,10 @@
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\helpers\Html;
+use yii\web\YiiAsset;
 use yii\widgets\Breadcrumbs;
+
+YiiAsset::register($this);
 
 ?>
 <?php $this->beginPage() ?>
