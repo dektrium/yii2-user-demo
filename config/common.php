@@ -28,6 +28,6 @@ return [
         'log' => require(__DIR__ . '/components/log.php')
     ],
     'params' => [
-
+        'adminEmail' => 'support@dektrium.com',
     ],
 ];
